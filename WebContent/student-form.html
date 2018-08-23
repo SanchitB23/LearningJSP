@@ -7,9 +7,27 @@
 <body>
 
 	<form action="student-response.jsp">
-		First name: <input type="text" name="firstName" /> <br>
-		<br> Last name: <input type="text" name="lastName" /> <br>
-		<br> <input type="submit" value="Submit" />
+		First name: <input type="text" name="firstName" /> <br> <br>
+		Last name: <input type="text" name="lastName" /> <br> <select
+			name="country">
+			<option>India</option>
+			<option>France</option>
+			<option>Germany</option>
+			<option>UK</option>
+			<option>USA</option>
+		</select> <br> <br> Favorite Programming Language: <input
+			type="radio" name="languageRadio" value="Python"> Python <input
+			type="radio" name="languageRadio" value="Java"> Java <input
+			type="radio" name="languageRadio" value="JavaScript">
+		JavaScript <input type="radio" name="languageRadio" value="PHP">
+		PHP <br> 
+		<br> Favorite Programming Language(CheckBoxes): <input
+			type="checkbox" name="languageCheckbox" value="Python"> Python <input
+			type="checkbox" name="languageCheckbox" value="Java"> Java <input
+			type="checkbox" name="languageCheckbox" value="JavaScript">
+		JavaScript <input type="checkbox" name="languageCheckbox" value="PHP">
+		PHP <br> 
+		<input type="submit" value="Submit" />
 	</form>
 
 </body>
