@@ -17,9 +17,8 @@
 	<ul>
 		<%
 			String[] langs = request.getParameterValues("languageCheckbox");
-		
-			for(String temp:langs){
-				out.println("<li>"+temp+"</li>");
+			for (String temp : langs) {
+				out.println("<li>" + temp + "</li>");
 			}
 		%>
 	</ul>
